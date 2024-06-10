@@ -1,0 +1,72 @@
+header {
+    display: block;
+    background-color: rgb(99, 95, 95);
+    color: silver;
+    padding-bottom: 5em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+
+.container {
+
+    background-color: black;
+    color: aliceblue;
+    padding: 2em;
+    gap: 15em;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 7em 7em 7em 7em;
+
+}
+
+
+
+.home {
+    grid-column: 1/2;
+
+}
+
+.project {
+    grid-column: 2/3;
+}
+
+.services {
+    grid-column: 3/4;
+}
+
+.contactus {
+    grid-column: 4/5;
+}
+
+.part {
+    display: grid;
+    grid-template-columns: auto 7em 7em;
+}
+
+#main {
+    grid-column: 1/2;
+    background-color: silver;
+    padding-bottom: 20em;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+#aside_content {
+    grid-column: 2/3;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+#foot {
+    justify-content: center;
+    padding-bottom: 10em;
+    background-color: rgb(99, 95, 95);
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}

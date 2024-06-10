@@ -1,0 +1,35 @@
+#parent {
+    display: grid;
+    grid-template: auto 1fr auto/ auto 1fr auto;
+}
+
+.pink-section {
+    padding: 2rem;
+    grid-column: 1/4;
+    background-color: rgb(216, 112, 142);
+}
+
+.left-section {
+    grid-column: 1/2;
+    background-color: green;
+    padding: 1rem;
+}
+
+.right-section {
+    grid-column: 3/4;
+    background-color: green;
+    padding: 1rem
+    ;
+}
+
+.orenge-section {
+    grid-column: 2/3;
+    background-color: orange;
+    padding: 3rem;
+}
+
+.blue-section {
+    grid-column: 1/4;
+    background-color: blue;
+    padding: 2rem;
+}
