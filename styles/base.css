@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url('href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+header {
+    display: block;
+    background-color: rgb(220, 165, 201);
+    color: black;
+    padding-top: 1em;
+    padding-left: 1em;
+    font-family: 'Space Grotesk';
+}
+
+.container {
+
+    background-color: rgb(220, 165, 201);
+    ;
+    color: black;
+    padding: 2em;
+    gap: 15em;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 7em);
+    /* Simplified grid-template-columns */
+    padding: 35px;
+    gap: 4em;
+    justify-content: space-around;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+
+
+}
+
+
+#linkedin,
+#ilearn,
+#scripture,
+#finalproject {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-size-adjust: 2em;
+    font-family: 'Space Grotesk';
+
+    /* Center content vertically */
+}
+
+#linkedin {
+
+    grid-column: 1/2;
+    border: 2px inset black;
+    border-radius: 3%;
+    padding: 20px
+}
+
+#ilearn {
+    grid-column: 2/3;
+    border: 2px inset black;
+    border-radius: 3%;
+    padding: 20px
+}
+
+#scripture {
+    grid-column: 3/4;
+    border: 2px inset black;
+    border-radius: 3%;
+    padding: 20px
+}
+
+#finalproject {
+    grid-column: 4/5;
+    border: 2px inset black;
+    border-radius: 3%;
+    padding: 20px
+}
+
+main {
+
+    display: grid;
+    grid-template-columns: repeat(10, 2fr);
+    grid-template-rows: 2fr 2fr;
+    margin-top: 5%;
+
+
+}
+
+.aboutme {
+    grid-column: 1/5;
+
+}
+
+.aboutme h2 {
+    background-color: rgb(220, 165, 201);
+    font-family: 'Space Grotesk';
+}
+
+#img_me {
+    width: 300px;
+    grid-column: 6/7;
+    grid-row: 1/2;
+    margin-bottom: 7%;
+    border-radius: 8%;
+}
+
+.rs {
+    grid-column: 1/5;
+    grid-row: 2/3;
+
+}
+
+#img_rs {
+    width: 300px;
+    grid-row: 2/3;
+    grid-column: 6/7;
+    border-radius: 8%;
+}
+
+.card {
+    grid-column: 8/10;
+    grid-row: 1/2;
+    border: 2px solid rgb(220, 165, 201);
+    padding: 30px;
+
+}
+
+.card h2 {
+    background-color: rgb(220, 165, 201);
+    font-family: 'Space Grotesk';
+}
+
+.rs h2 {
+    background-color: rgb(220, 165, 201);
+    font-family: 'Space Grotesk';
+}
+
+footer {
+    background-color: rgb(220, 165, 201);
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+footer h3,
+p {
+    text-align: center;
+    font-family: 'Space Grotesk';
+}
+
+.aboutme,
+.rs p,
+h3 {
+    font-family: 'Space Grotesk';
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-family: 'Space Grotesk';
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}

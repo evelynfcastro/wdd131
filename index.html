@@ -4,18 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evelyn</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals- Evelyn Castro. This page will containg a couple informations about me">
+    <meta name="author" content="Evelyn Castro">
+    <title>WDD 131 - Dynamic Web Fundamentals - Evelyn Castro</title>
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 
 <body>
-<div id="parent">
-    <header class='pink-section'> Header</header>
-    <div class="left-section"> Left </div>
-    <main class="orenge-section"> Main</main>
-    <div class="right-section"> Right</div>
-    <footer class="blue-section"> Footer</footer>
-</div>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Evelyn Castro </h1>
+        <nav class="container">
+            <a id="linkedin" href="www.linkedin.com/in/evelyn-castro-74b226205">LinkedIn</a>
+            <a id="ilearn" href="https://byui.instructure.com/">I-Learn</a>
+            <a id="scripture"
+                href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/101?lang=eng&id=p16#p16">Scripture</a>
+            <a id="finalproject">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="aboutme">
+            <h2> About Me</h2>
+            <p> My name is Evelyn, I'm from Rio Grande do Sul, Brazil. I currly work as an Instructor at Brazil MTC.
+                I love hanging out with my friends, meeting new places,but I also love staying home watching movie and
+                cooking.
+            </p>
+        </section>
+        <img id="img_me" src="/images/me.jpeg" alt="evelyn's photo">
+
+        <section class="rs">
+            <h2> Rio Grande do Sul</h2>
+            <h3>Curiosities</h3>
+            <p> Rio Grande do Sul is the southernmost state in Brazil, bordering Uruguay to the south and Argentina to
+                the west.
+                It is part of the South Region of Brazil.</p>
+            <p>The official language is Portuguese, but due to the influence of European immigrants,
+                German and Italian dialects can also be found in certain areas.</p>
+        </section>
+        <img id="img_rs" src="images/rs.jpeg" alt="rio grande do sul">
+
+        <section class="card">
+            <h2> Web Dev Resource </h2>
+        
+            <a class="links" href="https://www.w3schools.com/"> W3 Schools</a>
+            <a class="links" href="https://www.freecodecamp.org/"> Free Code Camp</a>
+            <a  class="links" href="https://developer.mozilla.org/en-US/"> Developer Mozilla</a>
+            
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Evelyn Castro</p>
+        <p> Last Modified: <span id="lastmod"></span> </p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
 </body>
 
 </html>
