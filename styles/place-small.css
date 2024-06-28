@@ -1,0 +1,56 @@
+@media(max-width:768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+
+        header, .data, .weather, footer {
+            width: 100%;
+        }
+        
+        header h1 {
+            width: 100%;
+            text-align: center;
+        }
+    
+        main {
+            display: block;
+        }
+    
+        #heropic {
+            width: 100%;
+            display: block;
+            position: relative;
+        }
+    
+        #heropic img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    
+        .data, .weather {
+            width: 100%;
+            display: block;
+            position: relative;
+            padding: 20px;
+            margin: 10px;
+        }
+    
+        .data ul, .weather ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        .data ul li, .weather ul li {
+            margin-bottom: 10px;
+        }
+    
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color:  rgb(129, 194, 194);
+        }
+    }
+    

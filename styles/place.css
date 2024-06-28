@@ -1,0 +1,112 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
+
+header h1{
+    justify-content: center;
+    background-color: rgb(129, 194, 194);
+    text-align: center;
+    padding: 40px;
+    margin: 0%;
+    grid-column: span;
+}
+
+
+
+.data{
+    background-color: antiquewhite;
+    text-align:center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 25px ;
+    margin-left: 20px;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    display:flexbox ;
+}
+
+#data-list{
+    list-style-type: none;
+    text-align: center;
+    top: 50px; 
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+
+}
+.weather{
+    background-color: antiquewhite;
+    text-align: center;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    margin-right: 15px;
+    
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+#weather-list{
+    list-style-type: none;
+    
+}
+#heropic{
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.weather-header{
+    display: flex; /* Add flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+#icon{
+   
+        width: 70px;
+        margin-left: 10px; /* Add some space between the title and the icon */
+    
+}
+
+footer{
+    background-color: rgb(129, 194, 194);
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 10px;
+    margin-top: 100px;
+    position: absolute;
+    width: 100%; /* Ensure footer spans full width */
+    flex-direction: column;
+   
+
+
+    
+}
+footer h3,
+    p {
+        text-align: center;
+        display: block;
+        font-family: 'Nunito';
+        margin: 10px;
+        
+        
+    }
+.name::after{
+
+   
+        content: "🌸"; /* Flower emoji */
+        display: inline-block; /* Ensure it behaves like a block element */
+        margin-left: 5px; /* Adjust spacing as needed */
+        font-size: 1.2em; /* Adjust size if necessary */
+    }
+
+    #year::after{
+
+   
+        content: "🌸"; /* Flower emoji */
+        display: inline-block; /* Ensure it behaves like a block element */
+        margin-left: 5px; /* Adjust spacing as needed */
+        font-size: 1.2em; /* Adjust size if necessary */
+    }
