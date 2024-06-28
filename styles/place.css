@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
@@ -12,6 +17,7 @@ header h1{
     padding: 40px;
     margin: 0%;
     grid-column: span;
+    font-family: "Roboto Flex";
 }
 
 
@@ -31,6 +37,7 @@ header h1{
 #data-list{
     list-style-type: none;
     text-align: center;
+    font-family: "Alice" ;
     top: 50px; 
     justify-content: center; /* Center horizontally */
     align-items: center;
@@ -48,13 +55,27 @@ header h1{
 }
 #weather-list{
     list-style-type: none;
+    font-family: "Alice";
+   
     
+}
+
+#data-list li{
+    margin: 10px;
+    text-align: center;
+}
+#weather-list li{
+    margin: 10px;
+    text-align: center;
 }
 #heropic{
     object-fit: cover;
     position: absolute;
     z-index: -1;
 }
+    #title1, #title2{
+        font-family:"Roboto Flex"  ;
+    }
 
 .weather-header{
     display: flex; /* Add flexbox */
@@ -79,6 +100,7 @@ footer{
     position: absolute;
     width: 100%; /* Ensure footer spans full width */
     flex-direction: column;
+    
    
 
 
@@ -90,6 +112,7 @@ footer h3,
         display: block;
         font-family: 'Nunito';
         margin: 10px;
+        font-family: "Roboto Flex";
         
         
     }
