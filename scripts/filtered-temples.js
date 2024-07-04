@@ -121,7 +121,7 @@ const temples = [
     document.querySelector("#images").innerHTML += 
     `<div class="card">
     
-    <h3> <b>Temple Name:<b> ${TempleName}</h3> <br>
+    <h3> ${TempleName}</h3> <br>
     <p><b> Location:<b> ${location} </p> <br>
     <p> <b> Dedication Date:<b> ${dedicatedDate} </p> <br>
     <p> <b> Area:<b> ${area} </p> <br> 
