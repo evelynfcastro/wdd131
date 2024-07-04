@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+NZ:wght@100..400&display=swap');
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(245, 137, 191);
+    width: 100%;
+    margin: 0%;
+    position:relative;
+}
+header h1{
+    font-family: "Playwrite NZ";
+    text-align: left;
+    margin: 0%;
+
+}
+.nav{
+   
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito";
+    
+    
+}
+nav a{
+    display: none;
+		flex: 1 1 100%;
+        padding: 10px;
+        text-decoration: none;
+        color: #000;
+    
+   
+}
+
+main h2{
+    margin-bottom: 20px;
+}
+main h3, h2{
+    font-family: "Playwrite NZ";
+    text-align: center;
+    background-color: #ffbeefa8;
+}
+
+figcaption{
+    font-family: "Nunito";
+}
+#images div{
+   
+    padding-left: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+    position:fixed;
+    right: 50px;
+    top:10px;
+    
+	
+}
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.open a {
+	display: block;
+}
+
+#images
+    {display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); grid-gap: 25px;place-items: center;
+        place-items: center;
+        justify-content: center; /* Center the grid items horizontally */
+        width: 100%; /* Ensure the container takes full width */
+        margin: 0 auto; /* Center the container itself */}
+
+
+footer {
+    background-color: rgb(245, 137, 191);
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 5px;
+    }
+
+footer h3,
+    p {
+        text-align: center;
+        font-family: 'Nunito';
+        
+        
+    }
+
+    

@@ -1,0 +1,51 @@
+@media(min-width:640px) {
+   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+   
+   
+    header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+
+    
+   }
+   
+    .nav{
+        flex-direction: row;
+        max-width: 800px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        
+        
+
+    }
+        
+     #menu{
+        display: none;
+        
+     }
+        
+    
+    nav a {
+        display: flex;
+        flex: 1 1 100%;
+        justify-content: space-evenly;
+        padding: 10px 20px;
+        right: 0;
+       
+      
+  
+    }
+    #images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+
+   
+}
