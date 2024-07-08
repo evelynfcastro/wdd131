@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+header{
+    background-color: #CDB4DB;
+    font-family: "Alice", serif ;
+    text-align: center;
+}
+main{
+
+    font-family: "Montserrat" ;
+}
+
+h1, h2, h3{
+    font-family: "Alice";
+
+}
+
+.primary{
+    background-color: #CDB4DB;
+}
+.secondary{
+    background-color: black;
+    color: white;
+}
+.accent1{
+    background-color: white;
+}
+nav{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #CDB4DB;
+    text-align: center;
+    padding: 2.5%;
+    font-family: "Alice";
+}
+.colored{
+    background-color: black;
+    color: white;
+    padding: 0%;
+}
