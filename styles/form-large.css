@@ -1,0 +1,21 @@
+@media(min-width:640px) {
+   main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+   }
+   header h1{
+    text-align: left;
+    margin-left: 17em;
+   }
+
+   footer p{
+    text-align: left;
+    margin-left: 32em;
+   }
+   #reviewCounter{
+    display: block;
+   }
+}

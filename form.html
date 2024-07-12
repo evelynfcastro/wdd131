@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals- Evelyn Castro. This page will containg a form">
+    <meta name="author" content="Evelyn Castro">
+    <title>My Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+</head>
+<body>
+<header>
+    <h1> Product Review </h1>
+</header>
+<main>
+    <form  method="get" action="review.html" class="wf1">
+        <div> 
+        <label><h4> Select Name*</h4>
+            <select id="product"name="product" required>
+                <option value="" disabled selected>Select Product...  </option>
+             
+            </select>
+        </label>
+        </div>
+
+        <div id="radio"><h4> Overall Rating*</h4>
+        <label> &star; <input type="radio" name="rating" id="one" required ></label>
+        <label> &star; &star; <input type="radio" name="rating" id="two"  ></label>
+        <label> &star; &star; &star; <input type="radio" name="rating" id="three"   ></label>
+        <label> &star;&star; &star; &star; &star; <input type="radio" name="rating" id="four"   ></label>
+        <label> &star; &star; &star; &star; &star; &star; <input type="radio" name="rating" id="five"  ></label>
+        </div>
+
+        <div > <h4>Date of Instalation*
+        </h4>
+        <label><input type="date" name="dateInst" id="date" required></label>
+        </div>
+        <div id="check"> <h4> Which feature did you find useful in the product? </h4>
+        <legend class="legend">(check all that apply)</legend>
+        <label> <input type="checkbox" name="durabillty" value="durabillty">Durabillty</label>
+        <label> <input type="checkbox" name="easeuse" value="easeUse">Ease of Use</label>
+        <label> <input type="checkbox" name="performance" value="performance">Performance</label>
+        <label><input type="checkbox" name="design" value="design">Design</label>
+        </div>
+        <div  class="optional"> <h4> Written Review </h4>
+        <label><input type="textarea" id="review" name="review"></label>
+        </div>
+
+        <div  class="optional"> <h4>User Name </h4> 
+        <label><input type="text" id="username" name="username"></label>
+        </div>
+
+        <div id="submit">
+       <label> <input type="submit" value=" Send my review"></label>
+       </div>
+
+    </form>
+
+    <p id="reviewCounter">Reviews Submitted: 0</p>
+
+</main>
+
+<footer>
+    <p class="name">© <span id="year"></span> Evelyn Castro</p>
+    <p> Italy </p>
+    <p> Last Modified: <span id="lastmod"></span> </p>
+</footer>
+<script src="scripts/form.js"></script>
+</body>
+</html>
