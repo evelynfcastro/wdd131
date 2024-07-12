@@ -20,7 +20,7 @@ main div{
 }
 .wf1 input[type=text],
 .wf1 input[type=date],
-.wf1 input[type=textarea],
+.wf1 textarea,
 .wf1 input[type=checkbox],
 .wf1 select
 {
@@ -48,7 +48,7 @@ div h4{
 
 .wf1 input[type=text],
 .wf1 input[type=date],
-.wf1 input[type=textarea],
+.wf1 textarea,
 .wf1 input[type=submit],
 .wf1 select {
     width: 96%;
