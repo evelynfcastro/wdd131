@@ -16,8 +16,9 @@
 <main>
     <form  method="get" action="review.html" class="wf1">
         <div> 
-        <label><h4> Select Name*</h4>
-            <select id="product"name="product" required>
+            <h4> Select Name*</h4>
+        <label>
+            <select id="product" name="product" required>
                 <option value="" disabled selected>Select Product...  </option>
              
             </select>
@@ -32,12 +33,11 @@
         <label> &star; &star; &star; &star; &star; &star; <input type="radio" name="rating" id="five"  ></label>
         </div>
 
-        <div > <h4>Date of Instalation*
-        </h4>
+        <div > <h4>Date of Instalation*</h4>
         <label><input type="date" name="dateInst" id="date" required></label>
         </div>
         <div id="check"> <h4> Which feature did you find useful in the product? </h4>
-        <legend class="legend">(check all that apply)</legend>
+        <p class="legend">(check all that apply)</p>
         <label> <input type="checkbox" name="durabillty" value="durabillty">Durabillty</label>
         <label> <input type="checkbox" name="easeuse" value="easeUse">Ease of Use</label>
         <label> <input type="checkbox" name="performance" value="performance">Performance</label>
