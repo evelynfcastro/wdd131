@@ -16,6 +16,8 @@ header, footer {
 .heropic {
     display: block;
     width: 100%;
+    max-width: 100%; /* Prevent image from overflowing its container */
+    height: auto;
     object-fit: cover; 
     position: relative;
    
@@ -28,7 +30,7 @@ section {
     padding: 20px;;
     align-items: center;
     margin: 10px auto; /* Adjust margin as needed */
-        text-align: center; /* Center content within sections */
+    text-align: center; /* Center content within sections */
 }
 
 
