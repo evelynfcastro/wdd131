@@ -1,62 +1,96 @@
+@media (max-width: 750px) {
 
-@media (max-width: 768px ){
-header, footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #cdb4dbbf;
-    width: 100%;
-    margin: 0%;
-    position: relative;
-}
+    header,
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #cdb4dbbf;
+        width: 100%;
+        margin: 0%;
+        position: relative;
+    }
 
-.home-page, .join-us {
-    display: block;
-}
-.heropic {
-    display: block;
-    width: 100%;
-    max-width: 100%; /* Prevent image from overflowing its container */
-    height: auto;
-    object-fit: cover; 
-    position: relative;
-   
-}
+    .home-page,
+    .join-us {
+        display: block;
+    }
 
-section {
-    width: 100%;
-    display: block;
-    position: relative;
-    padding: 20px;;
-    align-items: center;
-    margin: 10px auto; /* Adjust margin as needed */
-    text-align: center; /* Center content within sections */
-}
+    .heropic {
+        display: block;
+        max-width: 100%;
+        position: relative;
+        height: auto;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto 20px;
+        position: relative;
+        z-index: 1;
 
+    }
 
-#menu {
-    font-size: 1.5rem;
-    border: 0;
-    background: none;
-    color: #000;
-    position: fixed;
-    right: 20px;
-    top: 10px;
-}
+    .heropic img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
 
 
-nav a {
-    flex: 1 1 100%;
-    padding: 10px;
-    text-decoration: none;
-    color: #000;
-}
-#book-review{
-    display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); grid-gap: 25px;place-items: center;
+    section {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        position: relative;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .join-informations,
+    .about-us {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    form input {
+        padding: 15px 20px;
+        /* Adjust padding for smaller screens */
+    }
+
+    #menu {
+        font-size: 1.5rem;
+        border: 0;
+        background: none;
+        color: #000;
+        position: fixed;
+        right: 20px;
+        top: 10px;
+    }
+
+
+    nav a {
+        flex: 1 1 100%;
+        padding: 10px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    #book-review {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 25px;
         place-items: center;
-        justify-content: center; /* Center the grid items horizontally */
-        width: 100%; /* Ensure the container takes full width */
-        margin: 0 auto; 
-}
+        place-items: center;
+        justify-content: center;
+        /* Center the grid items horizontally */
+        width: 100%;
+        /* Ensure the container takes full width */
+        margin: 0 auto;
+    }
 
 }
