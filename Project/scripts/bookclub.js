@@ -1,3 +1,25 @@
+// Last modification
+const today = new Date();
+const yearElement = document.querySelector('.year');
+
+if (yearElement) {
+    yearElement.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
+}
+
+const lastModified = new Date(document.lastModified);
+const options = { year: 'numeric', month: 'long', day: 'numeric' };
+const formattedDate = lastModified.toLocaleDateString('en-US', options);
+
+const lastModElement = document.querySelector('.lastmod');
+if (lastModElement) {
+    lastModElement.textContent = formattedDate;
+}
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
     const menuButton = document.getElementById('menu');
     const nav = document.querySelector('nav');
@@ -53,7 +75,7 @@ function bookCard(list){
     `
     <div class="my-book">
         <h3 class="cardTitle">${name}</h3> <br>
-        <img src=${image} loading="lazy" alt="${alt}" width="250" height="200"><br>
+        <img src=${image} loading="lazy" alt="${alt}" loading="lazy" width="250" height="200"><br>
         <p> Publish Year: ${year}  <br>
         <p>  Author: ${author} </p> <br>
         <p> Review: ${review} </p> <br> 
@@ -64,6 +86,9 @@ function bookCard(list){
 }
 
 bookCard(bookList);
+
+
+
 
 
 

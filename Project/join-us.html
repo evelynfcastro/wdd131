@@ -24,7 +24,7 @@
         <picture class="heropic">
             <source srcset="images/club-small.webp" media="(max-width: 499px)">
             <source srcset="images/club-medium.webp" media="(max-width: 999px)">
-            <img src="images/club-large.webp" alt="library photo" width="1500" height="750">
+            <img src="images/club-large.webp" alt="library photo" loading="lazy" width="1500" height="750">
         </picture>
         <section class="join-informations">
             <h2> How does the club works?</h2>
@@ -34,31 +34,33 @@
                 Sign up today and be part of a community that celebrates the joy of reading!</p>
             </section>
 
-        <form  method="get" action="review.html" class="wf1">
-            <div > <h4>First Name</h4>
-            <label><input type="text" name="username" required> </label>
+        <form  method="get" action="submited.html" class="wf1">
+            <div > <h4>First Name*</h4>
+            <label><input type="text" name="username"  required> </label>
         </div>
 
             <div > <h4>Last Name</h4>
-            <label><input type="text" name="lastname" required> </label>
+            <label><input type="text" name="lastname" > </label>
         </div>
 
-        <div><h4>E-mail</h4>
-            <label><input type="email" name="email"  placeholder="someone@gmail.com" required></label>
+        <div><h4>E-mail*</h4>
+            <label><input type="email" name="email"   placeholder="someone@gmail.com" required></label>
 
         </div>
 
         <div id="submit">
             <label> <input type="submit" value="Join the club"></label>
             </div>
-     
+        
         </form>
+        
+
     </main>
 
     <footer>
-            <p class="name">© <span id="year"></span> Evelyn Castro</p>
-            <p> Italy </p>
-            <p> Last Modified: <span id="lastmod"></span> </p>
+            <p class="name">© <span class="year"></span> Evelyn Castro</p>
+            <p> For4 Club </p>
+            <p> Last Modified: <span class="lastmod"></span> </p>
         </footer>
         <script src="scripts/bookclub.js" defer></script>
    

@@ -50,6 +50,11 @@ nav a{
     
 
 }
+.joined{
+    margin: 40px;
+    padding: 2rem;
+    border: #CDB4DB solid 8px;
+}
 section h2{
     font-family: "Alice";
 }
@@ -156,6 +161,27 @@ form h4{
     background-color: #CDB4DB;
     color: black;
 }
-form input :required{
+.wf1 input:required{
     border-left:  5px solid red;
+} 
+.wf1 input:required:valid{
+    border-left: none;
+}
+
+.name::after{
+
+   
+    content: "🌸"; /* Flower emoji */
+    display: inline-block; /* Ensure it behaves like a block element */
+    margin-left: 5px; /* Adjust spacing as needed */
+    font-size: 1.2em; /* Adjust size if necessary */
+}
+
+.year::after{
+
+
+    content: "🌸"; /* Flower emoji */
+    display: inline-block; /* Ensure it behaves like a block element */
+    margin-left: 5px; /* Adjust spacing as needed */
+    font-size: 1.2em; /* Adjust size if necessary */
 }

@@ -42,7 +42,7 @@
         max-width: 100%;
         display: block;
         position: relative;
-        padding: 20px;
+        padding: 15px;
         align-items: center;
         text-align: center;
     }
@@ -91,6 +91,7 @@
         width: 100%;
         /* Ensure the container takes full width */
         margin: 0 auto;
+        margin-bottom: 15px;
     }
 
 }
